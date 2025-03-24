@@ -29,10 +29,11 @@ function Banner() {
                 <h2 className="text-white fw-normal">
                   We're the Geomok Tech. We help drive change with technology.
                 </h2>
-                <div className="banner-logo">
-                  <span>GEOMOK</span>
-                  <span>TECH</span>
-                </div>
+                <div className="banner-logo" style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", fontSize: "24px", fontWeight: "bold" }}>
+  <span>GEOMOK</span>
+  <span>TECH</span>
+</div>
+
               </div>
               <ul className="banner-list">
                 <li>

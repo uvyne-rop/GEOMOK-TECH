@@ -1,8 +1,6 @@
-import './style.scss';
-
 function Logo({ theme }) {
   return (
-    <div className="logo-container" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+    <div> {/* Adjust the gap */}
       {/* Logo Graphic */}
       <svg
           width="40"
@@ -28,21 +26,38 @@ function Logo({ theme }) {
             fill="#E21A1A"
           />
         </svg>
-      <svg
+      {/* <svg
         width="40"
         height="40"
         viewBox="0 0 259 266"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <path d="M113.467 11.6667L110.267 23L104.8 24.3334C101.733 25.1334..." fill="#354185" />
-        <path d="M121.2 49.5334C116 54.8667 116 60.4667 121.333 65.9334..." fill="#E41A1A" />
-        <path d="M86.4 83.6667C78.9333 87.8 78 95.2667 84 102.067L88 106.733V126.6V146.467..." fill="#E71313" />
-        <path d="M161.867 83C153.733 86.3334 152.4 99.1334 159.467 103.4C160.933 104.2..." fill="#E21A1A" />
-      </svg>
-      
+        <path
+          d="M113.467 11.6667L110.267 23L104.8 24.3334..."
+          fill="#354185"
+        />
+        <path
+          d="M121.2 49.5334C116 54.8667 116 60.4667 121.333 65.9334..."
+          fill="#E41A1A"
+        />
+        <path
+          d="M86.4 83.6667C78.9333 87.8 78 95.2667 84 102.067..."
+          fill="#E71313"
+        />
+        <path
+          d="M161.867 83C153.733 86.3334 152.4 99.1334 159.467 103.4..."
+          fill="#E21A1A"
+        />
+      </svg> */}
+
       {/* Title Text */}
-      <svg xmlns="http://www.w3.org/2000/svg" width="148" height="41" viewBox="0 0 143 41">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="148"
+        height="41"
+        viewBox="0 0 143 41"
+      >
         <text
           className={theme === 'logo-light' ? 'cls-5' : 'cls-1'}
           x="50%"
